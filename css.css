@@ -1,0 +1,177 @@
+td {
+    border: 3px solid MediumVioletRed;
+    font-size: 20px;
+    background-color: Indigo;
+    color: LightCyan;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th {
+    border: 5px solid DeepPink;
+    font-size: 25px;
+    color: DarkRed;
+    background-color: Pink;
+    padding: 20px;
+}
+
+html {
+    background: url('https://cdn.wallpapersafari.com/55/73/ghY4rc.jpg'), rgba(255, 255, 255, 0.5);
+    background-blend-mode: color;
+}
+
+caption {
+    font-size: 30px;
+    font-weight: bold;
+    color: Purple;
+    background-color: DeepPink;
+    padding: 20px;
+}
+
+.important {
+    font-weight: bold;
+    color: MidnightBlue;
+    text-decoration: underline;
+    list-style-type: square;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+}
+
+.film {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: LightBlue;
+    border-left: 5px solid darkviolet;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.film:not(:last-child) {
+    margin-right: 10px;
+}
+
+.book {
+    width: 100%;
+}
+
+.film p {
+    padding: 0 10px;
+}
+
+.film button {
+    padding: 20px;
+    margin: 15px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    color: indigo;
+    border: 2px solid indigo;
+    border-radius: 10px;
+}
+
+.film button:hover {
+    background-color: indigo;
+    color: orange;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h2 {
+    margin: 0;
+    padding: 0 5px 2px;
+    border-top: 5px solid darkviolet;
+    border-bottom: 5px solid darkviolet;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navBlock {
+    background-color: #4470c4;
+    padding: 20px;
+    margin: 0 35% 50px 35%;
+    width: 30%;
+    color: #ffffff;
+    border: 5px solid #2d508f;
+}
+
+.navBlock a {
+    color: wheat;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 20px;
+}
+
+body {
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.navigation {
+    list-style: none;
+}
+
+#promo {
+    color: #53377a;
+}
+
+.quatrain {
+    font-style: italic;
+    font-weight: bold;
+    color: #270a1f;
+}
+
+.quatrain a {
+    text-decoration: none;
+    color: #d5265b;
+}
+
+.travel {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 20px auto;
+    border: 6px solid #6f0035;
+    border-radius: 10px;
+    background-color: #c478a2;
+}
+
+.travel img {
+    width: 100%;
+}
+
+.travel h2 {
+    text-align: center;
+    color: #6f0035;
+}
+
+.travel p {
+    margin: 10px 10px 20px;
+}
+
+.travel img:hover {
+    opacity: 0.2;
+}
